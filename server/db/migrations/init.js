@@ -21,7 +21,8 @@ exports.up = function (knex) {
 };
 
 exports.down = function (knex) {
-  return knex.schema.dropTableIfExists('lecture')
-                    .dropTableIfExists('attendance')
-                    .dropTableIfExists('user');
+  return knex.schema
+          .dropTableIfExists('attendance')
+          .dropTableIfExists('lecture')
+          .dropTableIfExists('user');
 };

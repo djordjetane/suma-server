@@ -1,4 +1,4 @@
-const { User, Lecture, Attendance } = require('./models')
+const { User, Lecture, Attendance } = require('../models')
 
 module.exports = {
     checkForUser,
