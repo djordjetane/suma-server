@@ -1,21 +1,6 @@
 version: '3.1'
 
-services:
-  server:    
-    environment:      
-      - DB_CLIENT=${DB_CLIENT}
-      - DB_NAME=${DB_NAME}
-      - DB_USER=${DB_USER}
-      - DB_PASS=${DB_PASS}    
-      - DB_HOST=${DB_HOST}
-    build: 
-      context: ./server
-    ports:
-      - ${SRV_PORT}:7878
-    expose:
-      - ${SRV_PORT}    
-    depends_on:
-      - db
+services:  
   db:
     image: mysql
     restart: always
@@ -35,5 +20,28 @@ services:
     restart: always
     ports:
       - 8080:8080
+  server:    
+    image: server
+    build: 
+      context: ./server    
+    deploy:
+      restart_policy:
+          condition: on-failure
+          delay: 3s
+          max_attempts: 5
+          window: 60s
+    environment:      
+      - DB_CLIENT=${DB_CLIENT}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASS=${DB_PASS}    
+      - DB_HOST=${DB_HOST}
+    ports:
+      - ${SRV_PORT}:7878
+    expose:
+      - ${SRV_PORT}    
+    depends_on:
+      - db
+      - adminer
 volumes:
   mysql-db-ss:
