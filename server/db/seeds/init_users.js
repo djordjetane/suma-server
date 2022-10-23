@@ -6,274 +6,364 @@ exports.seed = function(knex) {
       // Inserts seed entries
       return knex('user').insert([
         { 
-          name: 'Dejan Stanković'
+          first_name: 'Dejan',
+					last_name: 'Stanković'
         },
         { 
-          name: 'Tijana Tošković'
+          first_name: 'Tijana',
+					last_name: 'Tošković'
         },
         { 
-          name: 'Marija Konatar' 
+          first_name: 'Marija',
+					last_name: 'Konatar' 
         },
         { 
-          name: 'Jelena Vukojičić'
+          first_name: 'Jelena',
+					last_name: 'Vukojičić'
         },
         { 
-          name: 'Emilija Knežević'
+          first_name: 'Emilija',
+					last_name: 'Knežević'
         },
         { 
-          name: 'Lenka Dobrodolac'
+          first_name: 'Lenka',
+					last_name: 'Dobrodolac'
         },
         { 
-          name: 'Mirjana Stefanovic'
+          first_name: 'Mirjana',
+					last_name: 'Stefanovic'
         },
         { 
-          name: 'Đorđe Tanasković'
+          first_name: 'Đorđe',
+					last_name: 'Tanasković'
         },
         { 
-          name: 'Anđela Živadinović'
+          first_name: 'Anđela',
+					last_name: 'Živadinović'
         },
         { 
-          name: 'Andjela Ostojić'
+          first_name: 'Andjela',
+					last_name: 'Ostojić'
         },
         { 
-          name: 'Olivera Džonić'
+          first_name: 'Olivera',
+					last_name: 'Džonić'
         },
         { 
-          name: 'Emilija Piljojčić' 
+          first_name: 'Emilija',
+					last_name: 'Piljojčić' 
         },
         { 
-          name: 'Đorđe Polomčić'
+          first_name: 'Đorđe',
+					last_name: 'Polomčić'
         },
         { 
-          name: 'Tamara Baranin'
+          first_name: 'Tamara',
+					last_name: 'Baranin'
         },
         { 
-          name: 'Ema Marinković'
+          first_name: 'Ema',
+					last_name: 'Marinković'
         },
         { 
-          name: 'Blagoje Rozgić' 
+          first_name: 'Blagoje',
+					last_name: 'Rozgić' 
         },
         { 
-          name: 'Nikola Čuturić'
+          first_name: 'Nikola',
+					last_name: 'Čuturić'
         },
         { 
-          name: 'Milena Stojić'
+          first_name: 'Milena',
+					last_name: 'Stojić'
         },
         { 
-          name: 'Lazar Jovanović'
+          first_name: 'Lazar',
+					last_name: 'Jovanović'
         },
         { 
-          name: 'Darko Setavanovic'
+          first_name: 'Darko',
+					last_name: 'Setavanovic'
         },
         { 
-          name: 'Mina Blagojević'
+          first_name: 'Mina',
+					last_name: 'Blagojević'
         },
         { 
-          name: 'Radivoje Vlaškalić'
+          first_name: 'Radivoje',
+					last_name: 'Vlaškalić'
         },
         { 
-          name: 'Nevena Milisavljević'
+          first_name: 'Nevena',
+					last_name: 'Milisavljević'
         },
         { 
-          name: 'Mira Milosavljević' 
+          first_name: 'Mira',
+					last_name: 'Milosavljević' 
         },
         { 
-          name: 'Marina Stanojlović'
+          first_name: 'Marina',
+					last_name: 'Stanojlović'
         },
         { 
-          name: 'Miloš Milićev'
+          first_name: 'Miloš',
+					last_name: 'Milićev'
         },
         { 
-          name: 'Luka Petković'
+          first_name: 'Luka',
+					last_name: 'Petković'
         },
         { 
-          name: 'Ivan Ćurić'
+          first_name: 'Ivan',
+					last_name: 'Ćurić'
         },
         { 
-          name: 'Maša Milivojević' 
+          first_name: 'Maša',
+					last_name: 'Milivojević' 
         },
         { 
-          name: 'Jovana Urošević'
+          first_name: 'Jovana',
+					last_name: 'Urošević'
         },
         { 
-          name: 'Boris Stanković'
+          first_name: 'Boris',
+					last_name: 'Stanković'
         },
         { 
-          name: 'Nevena Dinić'
+          first_name: 'Nevena',
+					last_name: 'Dinić'
         },
         { 
-          name: 'Milica Mladenović'
+          first_name: 'Milica',
+					last_name: 'Mladenović'
         },
         { 
-          name: 'Natalija Djuric'
+          first_name: 'Natalija',
+					last_name: 'Djuric'
         },
         { 
-          name: 'Tijana Petrovic'
+          first_name: 'Tijana',
+					last_name: 'Petrovic'
         },
         { 
-          name: 'Stefan Kovač'
+          first_name: 'Stefan',
+					last_name: 'Kovač'
         },
         { 
-          name: 'Stefan Nešković'
+          first_name: 'Stefan',
+					last_name: 'Nešković'
         },
         { 
-          name: 'Mihailo Jakovljevic' 
+          first_name: 'Mihailo',
+					last_name: 'Jakovljevic' 
         },
         { 
-          name: 'David Pantović'
+          first_name: 'David',
+					last_name: 'Pantović'
         },
         { 
-          name: 'Jelena Pejin' 
+          first_name: 'Jelena',
+					last_name: 'Pejin' 
         },
         { 
-          name: 'Milana Novakovic'
+          first_name: 'Milana',
+					last_name: 'Novakovic'
         },
         { 
-          name: 'Anastasija Divjak'
+          first_name: 'Anastasija',
+					last_name: 'Divjak'
         },
         { 
-          name: 'Nevena Marković'
+          first_name: 'Nevena',
+					last_name: 'Marković'
         },
         { 
-          name: 'Iva Djukic'
+          first_name: 'Iva',
+					last_name: 'Djukic'
         },
         { 
-          name: 'Katarina Backović'
+          first_name: 'Katarina',
+					last_name: 'Backović'
         },
         { 
-          name: 'Marko Veljović'
+          first_name: 'Marko',
+					last_name: 'Veljović'
         },
         { 
-          name: 'Mateja Janić'
+          first_name: 'Mateja',
+					last_name: 'Janić'
         },
         { 
-          name: 'Jovana Brkljač'
+          first_name: 'Jovana',
+					last_name: 'Brkljač'
         },
         { 
-          name: 'Jelena Tešić'
+          first_name: 'Jelena',
+					last_name: 'Tešić'
         },
         { 
-          name: 'Branko Cvetković'
+          first_name: 'Branko',
+					last_name: 'Cvetković'
         },
         { 
-          name: 'Jovan Samardžić'
+          first_name: 'Jovan',
+					last_name: 'Samardžić'
         },
         { 
-          name: 'Ivona Matijevic'
+          first_name: 'Ivona',
+					last_name: 'Matijevic'
         },
         { 
-          name: 'Jana Stojanovic'
+          first_name: 'Jana',
+					last_name: 'Stojanovic'
         },
         { 
-          name: 'Isidora Kozic'
+          first_name: 'Isidora',
+					last_name: 'Kozic'
         },
         { 
-          name: 'Tijana Petrovic'
+          first_name: 'Tijana',
+					last_name: 'Petrovic'
         },
         { 
-          name: 'Anastasija Kozić'
+          first_name: 'Anastasija',
+					last_name: 'Kozić'
         },
         { 
-          name: 'Nevena Janković'
+          first_name: 'Nevena',
+					last_name: 'Janković'
         },
         { 
-          name: 'Nevena Janković'
+          first_name: 'Nevena',
+					last_name: 'Janković'
         },
         { 
-          name: 'Anastasija Polić' 
+          first_name: 'Anastasija',
+					last_name: 'Polić' 
         },
         { 
-          name: 'Borislav Petrović' 
+          first_name: 'Borislav',
+					last_name: 'Petrović' 
         },
         { 
-          name: 'Nikola Stojanović'
+          first_name: 'Nikola',
+					last_name: 'Stojanović'
         },
         { 
-          name: 'Iva Krstić'
+          first_name: 'Iva',
+					last_name: 'Krstić'
         },
         { 
-          name: 'Jana Zivkovic' 
+          first_name: 'Jana',
+					last_name: 'Zivkovic' 
         },
         { 
-          name: 'Natalija Vitas'
+          first_name: 'Natalija',
+					last_name: 'Vitas'
         },
         { 
-          name: 'Nevena Stojanović'
+          first_name: 'Nevena',
+					last_name: 'Stojanović'
         },
         { 
-          name: 'Ognjen Petrov'
+          first_name: 'Ognjen',
+					last_name: 'Petrov'
         },
         { 
-          name: 'Ognjen Nešković'
+          first_name: 'Ognjen',
+					last_name: 'Nešković'
         },
         { 
-          name: 'Jovana Lazić'
+          first_name: 'Jovana',
+					last_name: 'Lazić'
         },
         { 
-          name: 'Nikola Vučić' 
+          first_name: 'Nikola',
+					last_name: 'Vučić' 
         },
         { 
-          name: 'Gala Posedi'
+          first_name: 'Gala',
+					last_name: 'Posedi'
         },
         { 
-          name: 'Pavle Sekešan'
+          first_name: 'Pavle',
+					last_name: 'Sekešan'
         },
         { 
-          name: 'Sara Crnomarković'
+          first_name: 'Sara',
+					last_name: 'Crnomarković'
         },
         { 
-          name: 'Luka Vulovic'
+          first_name: 'Luka',
+					last_name: 'Vulovic'
         },
         { 
-          name: 'Nemanja Zivkovic'
+          first_name: 'Nemanja',
+					last_name: 'Zivkovic'
         },
         { 
-          name: 'Jovan Arizanović'
+          first_name: 'Jovan',
+					last_name: 'Arizanović'
         },
         { 
-          name: 'Emilija Timotijevic' 
+          first_name: 'Emilija',
+					last_name: 'Timotijevic' 
         },
         { 
-          name: 'Kristina Timotijevic'
+          first_name: 'Kristina',
+					last_name: 'Timotijevic'
         },
         { 
-          name: 'Luka Vuksanović' 
+          first_name: 'Luka',
+					last_name: 'Vuksanović' 
         },
         { 
-          name: 'Matija Radulovic'
+          first_name: 'Matija',
+					last_name: 'Radulovic'
         },
         { 
-          name: 'Filip Jankovic'
+          first_name: 'Filip',
+					last_name: 'Jankovic'
         },
         { 
-          name: 'Filip Petrović'
+          first_name: 'Filip',
+					last_name: 'Petrović'
         },
         { 
-          name: 'Matija Obradović'
+          first_name: 'Matija',
+					last_name: 'Obradović'
         },
         { 
-          name: 'Boris Cvitak'
+          first_name: 'Boris',
+					last_name: 'Cvitak'
         },
         { 
-          name: 'Olga Obradović'
+          first_name: 'Olga',
+					last_name: 'Obradović'
         },
         { 
-          name: 'Teodora Ilic'
+          first_name: 'Teodora',
+					last_name: 'Ilic'
         },
         { 
-          name: 'Uroš Paunković'
+          first_name: 'Uroš',
+					last_name: 'Paunković'
         },
         { 
-          name: 'Ilija Kocinac'
+          first_name: 'Ilija',
+					last_name: 'Kocinac'
         },
         { 
-          name: 'Ana Milinović'
+          first_name: 'Ana',
+					last_name: 'Milinović'
         },
         { 
-          name: 'Kristina Mićić'
+          first_name: 'Kristina',
+					last_name: 'Mićić'
         },
         { 
-          name: 'Dragana Maljković'
+          first_name: 'Dragana',
+					last_name: 'Maljković'
         }
       ]);
   });
