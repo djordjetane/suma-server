@@ -5,7 +5,7 @@ const https = require('https');
 class Server extends https.Server {    
 
     static globalData = {
-        currentLecture: 2
+        currentLecture: 1
     }
     
     constructor(port, keyPath, certPath) {        
