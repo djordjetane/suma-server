@@ -6,25 +6,40 @@ exports.seed = function(knex) {
         // Inserts seed entries
         return knex('lecture').insert([
           {
-            name: 'Python za Pocetnike'
+            name: 'Anonimnost Glasanja'
           },
           {
-            name: 'Geometrija'
+            name: 'SevenBridges'
           },
           {
-            name: 'Algoritmi i strukture podataka'
+            name: 'Marija Mikic'
+          },          
+          {
+            name: 'Bosch'
           },
           {
-            name: 'Html'
+            name: 'Mladen Canovic'
           },
           {
-            name: 'OOP koncepti'
+            name: 'Bojana Milosevic'
           },
           {
-            name: 'Java Spring'
+            name: 'Vladimir Djosovic'
           },
           {
-            name: 'Blockchain programming'
+            name: 'Mozzart'
+          },
+          {
+            name: 'Banca Intesa'
+          },
+          {
+            name: 'Bosch'
+          },
+          {
+            name: 'Banca Intesa'
+          },
+          {
+            name: 'PlayStudios'
           }
         ]);
       });
