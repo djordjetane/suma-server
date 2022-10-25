@@ -364,6 +364,10 @@ exports.seed = function(knex) {
         { 
           first_name: 'Dragana',
 					last_name: 'Maljković'
+        },
+        { 
+          first_name: 'Pavle',
+					last_name: 'Jovanović'
         }
       ]);
   });
